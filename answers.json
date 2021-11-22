@@ -1,0 +1,11 @@
+{"content": [
+  {"tag": "saludo",
+    "patterns": ["hola","saludos","hi"],
+    "answers" : ["Hola, un gusto!","Saludos!","Hi :)"]
+  },
+  {"tag": "despedida",
+    "patterns": ["adios","chau","hasta luego"],
+    "answers" : ["Adios, un gusto!","Chau, un gusto!","Bye :)"]
+  }
+]
+}
