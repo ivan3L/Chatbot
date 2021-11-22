@@ -1,11 +1,39 @@
 {"content": [
   {"tag": "saludo",
-    "patterns": ["hola","saludos","hi"],
-    "answers" : ["Hola, un gusto!","Saludos!","Hi :)"]
+    "patterns": ["hola","saludos","hi","hello"],
+    "answers" : ["Hola, Buen día!","Bienvenido Washer"]
   },
   {"tag": "despedida",
     "patterns": ["adios","chau","hasta luego"],
     "answers" : ["Adios, un gusto!","Chau, un gusto!","Bye :)"]
+  },
+  {"tag": "horario",
+    "patterns": ["A qué hora atienden?","Cuales son sus horarios?","Cuando abren?","Desde que hora puedo ir?"],
+    "answers" : ["8:00 am a 16:00 pm","Desde las 8:00 hasta las 4 pm","Estamos disponibles desde 8:00 hasta 16:00"]
+  },
+  {"tag": "precio",
+    "patterns": ["Cuanto cuesta?","Cual es el precio?","Cuanto es todo?"],
+    "answers" : ["El precio es 2 soles por kilo","2 soles por kilo de ropa","El precio es de 2 soles por cada kilo de ropa"]
+  },
+  {"tag": "pago",
+    "patterns": ["Puedo pagar por tarjeta?","Cuales son los medios de pago?","Puedo pagar en efectivo?"],
+    "answers" : ["Se puede cancelar en efectivo y tarjeta","Efectivo y Tarjeta","Puedes pagar con Efectivo y Tarjeta"]
+  },
+  {"tag": "sede",
+    "patterns": ["Donde se ubican?","Donde estan?","Donde se encuentran?"],
+    "answers" : ["Av.Tapac Amure 1512, Miraflores","Estamos ubicados en Av.Tapac Amure 1512, Miraflores","Nos encontramos en Av.Tapac Amure 1512, Miraflores"]
+  },
+  {"tag": "promociones",
+    "patterns": ["Cuales son sus promociones?","Que promociones hay?","Hacen descuentos?"],
+    "answers" : ["Hacemos descuento a partir de 5 kilos","Descuento de 5 kilos a más","Obtiene un descuento al lavar más de 5 kilos"]
+  },
+  {"tag": "telefono",
+    "patterns": ["Cual es su telefono?","Como me contacto?","Como me comunico?"],
+    "answers" : ["Nuestro numero de contacto es 978231451","Se puede comunicar al 978231451","El número es 978231451"]
+  },
+  {"tag": "tiempo",
+    "patterns": ["En cuanto estará mi ropa?","Cuando me entregan mi ropa?","Dia de entrega"],
+    "answers" : ["Viernes 5 del 2021","El día de entrega es en 4 días","El día de entrega es el Viernes 5"]
   }
 ]
 }
